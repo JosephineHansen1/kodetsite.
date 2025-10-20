@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fødselsdag</title>
+    <link rel="stylesheet" href="generel.css" />
+  </head>
+  <body>
+    <header>
+      <main>
+        <section>
+          <img src="fotos/forside2.png" alt="andenforside" />
+        </section>
+
+        <section class="grid1-1-1">
+          <div>
+            <p>Børnefødselsdag</p>
+
+            <button
+              class="image-button"
+              type="button"
+              aria-label="Børnefødselsdag"
+            >
+              <img src="fotos/børnefødselsdag.png" alt="børnefødselsdag" />
+            </button>
+          </div>
+          <div>
+            <p>Barnedåb</p>
+            <img src="fotos/barnedåb.png" alt="barnedåb" />
+          </div>
+          <div>
+            <p>Konfirmation</p>
+            <img src="fotos/konfirmation.png" alt="konfirmation" />
+          </div>
+        </section>
+      </main>
+    </header>
+    <footer></footer>
+    <script>
+      document.querySelectorAll(".image-button").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          window.location.href = "third.html";
+        });
+      });
+    </script>
+  </body>
+</html>

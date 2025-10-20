@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fest-inspo</title>
+    <link rel="stylesheet" href="generel.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="/">
+          <img src="logomidt.png" alt="Logo" />
+        </a>
+      </div>
+      <nav>
+        <ul class="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html">About Us</a></li>
+          <li><a href="index.html">Contact Us</a></li>
+        </ul>
+        <button class="burger">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </button>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <img src="fotos/forside.png" alt="førsteforside" />
+      </section>
+
+      <section class="grid1-1-1-1">
+        <div>
+          <p>Fest for barnet</p>
+
+          <button
+            class="image-button"
+            type="button"
+            aria-label="Fest for barnet"
+          >
+            <img src="fotos/baby.png" alt="barn" />
+          </button>
+        </div>
+        <div>
+          <p>Fest for par</p>
+          <img src="fotos/par.png" alt="par" />
+        </div>
+        <div>
+          <p>Fest for hende</p>
+          <img src="fotos/hende.png" alt="hende" />
+        </div>
+        <div>
+          <p>Fest for ham</p>
+          <img src="fotos/ham.png" alt="ham" />
+        </div>
+      </section>
+
+      <h1>Inspiration samlet ét sted.</h1>
+
+      <section class="grid1-1">
+        <div>
+          <p>
+            Vi kender det alle: Du skal holde en fest: måske en konfirmation, et
+            bryllup, en rund fødselsdag eller en hyggelig sommerfest. Det skal
+            være en dag, der huskes, men hvor begynder man egentlig? Hvordan
+            finder man inspiration til pynt, borddækning, temaer og de små
+            detaljer, der gør dagen helt unik?
+          </p>
+        </div>
+        <div>
+          <p>
+            Hos fest-inspo har jeg gjort det enkelt for dig. Jeg samler idéer,
+            tips og masser af inspiration, så du nemt kan skabe den røde tråd i
+            din fest – uanset om den skal være stor og storslået eller lille og
+            intim. Jeg gør planlægningen lettere, så du kan fokusere på det
+            vigtigste: at nyde festen sammen med dine gæster.
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+    <script>
+      document.querySelectorAll(".image-button").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          window.location.href = "second.html";
+        });
+      });
+    </script>
+  </body>
+</html>
